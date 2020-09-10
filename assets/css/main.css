@@ -100,7 +100,7 @@ li{
   font-size: 15px;
   color: #299EF3;
  }
-.text{
+.text-position{
   background: #FFFFFF;
   box-shadow: 0px 9px 20px rgba(215, 228, 249, 0.5);
   border-radius: 15px;
@@ -120,7 +120,8 @@ li{
   font-weight: 900;
 }
 .view-link{
-  font-size: 10px;
+  font-size: 15px;
+  color: #299EF3;
 }
 .media-section img{
   padding: 20px 0px;
@@ -155,13 +156,14 @@ span .fa-youtube-play{
 .footer {
   background-color: #e5e5e5;
 }
+
  /*==================== media-query-section ====================*/
 @media only screen and (max-width: 768px) {
   #card-position{
    margin: 40px 0px;
    position: relative;
   }
-  .text{
+  .text-position{
      position: absolute;
      bottom: -70px;
      width: 65%;
@@ -172,17 +174,21 @@ span .fa-youtube-play{
     text-align: center;
   }
   #about .btn-wine{
-    display: inline-block;
-    margin: 0px 50px;
+    display: block;
+    margin: 0px auto;
     font-size: 14px;
+    text-align: center;
+  }
+  hr{
+    width: 90%;
   }
 }
 @media screen and (max-width: 443px) {
   #card-position{
-   margin: 40px 0px;
+   /* margin: 40px 0px; */
    position: relative;
   }
-  .text{
+  .text-position{
      left: 75px;
   }
   #card-position p{
@@ -197,7 +203,7 @@ span .fa-youtube-play{
    margin: 40px 0px;
    position: relative;
   }
-  .text{
+  .text-position{
      left: 56px;
   }
  
