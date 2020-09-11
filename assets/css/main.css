@@ -3,10 +3,8 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 .header-mobile {
-  color: #272D4E;
+  color: #272d4e;
 }
 
 .navbar-brand img {
@@ -20,8 +18,8 @@ html {
 .navbar-light .navbar-nav .nav-link.active {
   color: #2f7ad2;
 }
-li{
-  list-style-type:none;
+li {
+  list-style-type: none;
 }
 
 .custom-hamburger-btn {
@@ -62,11 +60,14 @@ li{
 
 .hero-section {
   height: 88vh;
-  color: #272D4E;
+  color: #272d4e;
 }
-.banner-text h1{
- padding-top: 5.9rem;
- font-weight: 900;
+.banner-text h1 {
+  padding-top: 5.9rem;
+  font-weight: 900;
+}
+.banner-text h1,p {
+ line-height: 2rem;
 }
 
 .btn-blue {
@@ -74,7 +75,7 @@ li{
   color: #fff;
   border-radius: 30px;
   transition: ease-in 0.3s;
-  margin:auto ;
+  margin: auto;
 }
 
 .btn-wine {
@@ -82,26 +83,126 @@ li{
   color: #fff;
   border-radius: 30px;
   transition: ease-in 0.3s;
-  margin:auto ;
+  margin: auto;
 }
 
 .btn-wine:hover {
   background-color: #dc324e;
   color: #fff;
 }
+/* media-gallery-section */
+.active {
+  color: #299ef3 !important;
+}
+.tab-div a {
+  color: black !important;
+}
+.card-image-one {
+  background-image: url("../images/image-one.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-two {
+  background-image: url("../images/image-two.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
 
-#card-position{
+.card-image-three {
+  background-image: url("../images/image\ 3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-four {
+  background-image: url("../images/image-four.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-five {
+  background-image: url("../images/image-five.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-six {
+  background-image: url("../images/image-six.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-seven {
+  background-image: url("../images/image-seven.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-eight {
+  background-image: url("../images/image-eight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-image-nine {
+  background-image: url("../images/image-nine.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  margin: 20px 0px;
+  color: white;
+}
+.card-title {
+  float: left;
+  font-size: 16px;
+}
+.card-text {
+  float: right;
+}
+.card-body img {
+  border-radius: 50%;
+}
+
+/* announcement ================= section */
+#card-position {
   position: relative;
 }
-#card-position p{
- font-size: 14px;
+#card-position p {
+  font-size: 14px;
 }
-#card-position h6{
+#card-position h6 {
   font-size: 15px;
-  color: #299EF3;
- }
-.text-position{
-  background: #FFFFFF;
+  color: #299ef3;
+}
+.text-position {
+  background: #ffffff;
   box-shadow: 0px 9px 20px rgba(215, 228, 249, 0.5);
   border-radius: 15px;
   position: absolute;
@@ -110,44 +211,41 @@ li{
   width: 65%;
   left: 67px;
 }
+/* end of ===============announcement======================= -section */
 
 .pt-lg {
   padding-top: 3rem !important;
 }
 
-.announcement h5{
+.announcement h5 {
   font-size: 15px;
   font-weight: 900;
 }
-.view-link{
+.view-link {
   font-size: 15px;
-  color: #299EF3;
+  color: #299ef3;
 }
-.media-section img{
+.media-section img {
   padding: 20px 0px;
 }
-
-
-/* .testimonial {
-  color: #000000;
-} */
-
-.card-body img{
+/*-=================testimonial section ================================= */
+.card-body img {
   display: block;
 }
-.card-body p{
- font-size: 15px;
+.card-body p {
+  font-size: 15px;
 }
-.hero-section-two{
+/* grace-=================service =================================section */
+.hero-section-two {
   width: 84%;
   height: 90vh;
-  background-image: url('../images/image\ 20.png');
+  background-image: url("../images/image\ 20.png");
   background-repeat: no-repeat;
   background-size: content;
   margin: auto;
   color: white;
 }
-span .fa-youtube-play{
+span .fa-youtube-play {
   color: #f43757;
   font-size: 60px;
   padding-top: 10%;
@@ -156,55 +254,68 @@ span .fa-youtube-play{
 .footer {
   background-color: #e5e5e5;
 }
+/* media --galery-section */
+.contain-flex {
+  display: none;
+}
+.show {
+  display: block;
+}
+i.fa-twitter{
+  padding-top: 40px;
+  font-size: 20px;
+}
 
- /*==================== media-query-section ====================*/
+/*==================== media-query-section ====================*/
 @media only screen and (max-width: 768px) {
-  #card-position{
-   margin: 40px 0px;
-   position: relative;
+  #card-position {
+    margin: 40px 0px;
+    position: relative;
   }
-  .text-position{
-     position: absolute;
-     bottom: -70px;
-     width: 65%;
-     left: 85px;
-    
+  .text-position {
+    position: absolute;
+    bottom: -70px;
+    width: 65%;
+    left: 85px;
   }
-  #about h1,p{
+  #about h1,
+  p {
     text-align: center;
   }
-  #about .btn-wine{
-    display: block;
-    margin: 0px auto;
-    font-size: 14px;
-    text-align: center;
+  #about .btn-wine {
+    display: inline-block;
+    margin: 30px auto;
+    left: 50%;
+    position: relative;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
   }
-  hr{
+  hr {
     width: 90%;
   }
 }
 @media screen and (max-width: 443px) {
-  #card-position{
-   /* margin: 40px 0px; */
-   position: relative;
+  #card-position {
+    /* margin: 40px 0px; */
+    position: relative;
   }
-  .text-position{
-     left: 75px;
+  .text-position {
+    left: 75px;
   }
-  #card-position p{
+  #card-position p {
     font-size: 12px;
-   }
-   #card-position h5,h6{
+  }
+  #card-position h5,
+  h6 {
     font-size: 12px;
-   }
+  }
 }
 @media screen and (max-width: 352px) {
-  #card-position{
-   margin: 40px 0px;
-   position: relative;
+  #card-position {
+    margin: 40px 0px;
+    position: relative;
   }
-  .text-position{
-     left: 56px;
+  .text-position {
+    left: 56px;
   }
- 
 }
