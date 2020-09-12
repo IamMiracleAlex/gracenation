@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 
 .header-mobile {
@@ -90,12 +91,12 @@ li {
   background-color: #dc324e;
   color: #fff;
 }
-/* media-gallery-section */
+/* media-gallery-card-section */
 .active {
-  color: #299ef3 !important;
+  color: #299ef3;
 }
 .tab-div a {
-  color: black !important;
+  color: black!important;
 }
 .card-image-one {
   background-image: url("../images/image-one.png");
@@ -105,6 +106,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-two {
   background-image: url("../images/image-two.png");
@@ -114,6 +117,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 
 .card-image-three {
@@ -124,6 +129,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-four {
   background-image: url("../images/image-four.png");
@@ -133,6 +140,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-five {
   background-image: url("../images/image-five.png");
@@ -142,6 +151,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-six {
   background-image: url("../images/image-six.png");
@@ -151,6 +162,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-seven {
   background-image: url("../images/image-seven.png");
@@ -160,6 +173,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-eight {
   background-image: url("../images/image-eight.png");
@@ -169,6 +184,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-image-nine {
   background-image: url("../images/image-nine.png");
@@ -178,6 +195,8 @@ li {
   height: 90%;
   margin: 20px 0px;
   color: white;
+  background-blend-mode: soft-light;
+  background-color: rgb(48, 47, 47);
 }
 .card-title {
   float: left;
@@ -189,7 +208,30 @@ li {
 .card-body img {
   border-radius: 50%;
 }
+.media-section img {
+  padding: 20px 0px;
+}
+.contain-flex {
+  display: none;
+}
+.show {
+  display: block;
+}
+span .fa-twitter{
+  padding-top: 40px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+span{
+  background-color: whitesmoke; 
+  background-blend-mode: hue ;
+  width: 3.5rem;
+  height: 70%;
+  margin-top: 20px;
+  border-radius: 50px;
+}
 
+/*================== end of media card section ==========================*/
 /* announcement ================= section */
 #card-position {
   position: relative;
@@ -201,6 +243,7 @@ li {
   font-size: 15px;
   color: #299ef3;
 }
+
 .text-position {
   background: #ffffff;
   box-shadow: 0px 9px 20px rgba(215, 228, 249, 0.5);
@@ -225,9 +268,7 @@ li {
   font-size: 15px;
   color: #299ef3;
 }
-.media-section img {
-  padding: 20px 0px;
-}
+
 /*-=================testimonial section ================================= */
 .card-body img {
   display: block;
@@ -255,19 +296,13 @@ span .fa-youtube-play {
   background-color: #e5e5e5;
 }
 /* media --galery-section */
-.contain-flex {
-  display: none;
-}
-.show {
-  display: block;
-}
-i.fa-twitter{
-  padding-top: 40px;
-  font-size: 20px;
-}
+
 
 /*==================== media-query-section ====================*/
 @media only screen and (max-width: 768px) {
+  #lead-text {
+    flex-direction: column;
+  }
   #card-position {
     margin: 40px 0px;
     position: relative;
