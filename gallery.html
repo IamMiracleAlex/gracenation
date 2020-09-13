@@ -3,10 +3,13 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="A kid website that talks more about bible stories">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./assets/css/bootstrap.css" rel="stylesheet" />
   <link href="./assets/css/main.css" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <!--=== icon-links=== -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Gallery Website</title>
@@ -35,7 +38,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-lg-3">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link active-link" href="index.html">Home</a>
             </li>
             <li class="nav-item mx-lg-3">
               <a class="nav-link" href="gallery.html">Gallery</a>
@@ -55,7 +58,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1> Unlimited fun and enduring grace in his presence!
+            <h1 class="heading-title"> Unlimited fun and enduring grace in his presence!
 
             </h1>
 
@@ -79,7 +82,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item mx-lg-3">
-              <a class="nav-link active" href="#">Home</a>
+              <a class="nav-link active-link" href="#">Home</a>
             </li>
             <li class="nav-item mx-lg-3">
               <a class="nav-link" href="index.html">Gallery</a>
@@ -116,7 +119,7 @@
     </section>
 
 
-
+<!----------------------- media gallery section ------------------- -->
     <section class="media-section py-5 py-md-5" id="media-section">
       <div class="container">
         <div class="row">
@@ -131,7 +134,7 @@
         </div>
       </div>
      <!-- media ===================card===========section -->
-      <div class="container contain-flex show" id="ongoing">
+      <div class="container contain-flex show" id="ongoing" data-aos="fade-down">
         <div class="row">
           <div class="col-sm-4">
             <div class="card card-image-one">
@@ -272,13 +275,13 @@
       </div>
       </div>
       <!-- Favorite========================================section -->
-      <div class="container contain-flex" id="favourite">
+      <div class="container contain-flex" id="favourite" data-aos="fade-left">
         <div class="row">
           <div class="col-sm-4">
             <div class="card card-image-one">
               <div class="card-body">
                 <h4 class="card-title">
-                  Photography<br>
+                  Photography  Favorite<br>
                   12 lesson</h4>
                 <p class="card-text">20 min</p>
               </div>
@@ -413,13 +416,13 @@
       </div>
       </div>
       <!-- complete ===================================== section -->
-      <div class="container contain-flex" id="complete">
+      <div class="container contain-flex" id="complete" data-aos="fade-left">
         <div class="row">
           <div class="col-sm-4">
             <div class="card card-image-one">
               <div class="card-body">
                 <h4 class="card-title">
-                  Photography<br>
+                  Photography complete<br>
                   12 lesson</h4>
                 <p class="card-text">20 min</p>
               </div>
@@ -628,6 +631,10 @@
   <script src="./assets/js/bootstrap.js"></script>
   <script src="./assets/js/main.js"></script>
   <script defer src="./assets/js/tab.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

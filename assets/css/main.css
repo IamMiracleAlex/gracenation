@@ -16,7 +16,7 @@ html {
   color: #000;
 }
 
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link.active-link {
   color: #2f7ad2;
 }
 li {
@@ -91,12 +91,15 @@ li {
   background-color: #dc324e;
   color: #fff;
 }
-/* media-gallery-card-section */
+
+/*------------- media-gallery-card-section styles-------------- */
+
 .active {
   color: #299ef3;
+  border-bottom: 3px solid #299ef3;
 }
-.tab-div a {
-  color: black!important;
+.tab-btn{
+  color: black !important;
 }
 .card-image-one {
   background-image: url("../images/image-one.png");
@@ -230,8 +233,9 @@ span{
   margin-top: 20px;
   border-radius: 50px;
 }
-
 /*================== end of media card section ==========================*/
+
+
 /* announcement ================= section */
 #card-position {
   position: relative;
@@ -312,6 +316,11 @@ span .fa-youtube-play {
     bottom: -70px;
     width: 65%;
     left: 85px;
+  }
+
+  .heading-title{
+  text-align: center;
+  padding: 6.1rem 0px;
   }
   #about h1,
   p {

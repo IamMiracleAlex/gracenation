@@ -1,4 +1,4 @@
-const about = document.querySelector('.media-section');
+const about = document.querySelector('#media-section');
 const buttons = document.querySelectorAll ('.tab-btn');
 const contents = document.querySelectorAll('.contain-flex');
 
