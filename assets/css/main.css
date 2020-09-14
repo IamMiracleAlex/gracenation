@@ -68,7 +68,7 @@ li {
   font-weight: 900;
 }
 .banner-text h1,p {
- line-height: 2rem;
+ /* line-height: 3rem; */
 }
 
 .btn-blue {
@@ -220,18 +220,37 @@ li {
 .show {
   display: block;
 }
-span .fa-twitter{
-  padding-top: 40px;
-  font-size: 30px;
-  padding-left: 20px;
+span .fa-play {
+  color: white;
+  font-size: 15px;
+  margin-top: 35px;
+  background-color: rgba(256, 256, 256, 0.5);
+  padding: 10px 15px;
+  border-radius: 4px;
+
 }
-span{
-  background-color: whitesmoke; 
-  background-blend-mode: hue ;
-  width: 3.5rem;
-  height: 70%;
-  margin-top: 20px;
-  border-radius: 50px;
+.icon___play .fa-play{
+  color: white;
+  font-size: 15px;
+  margin-top: 35px;
+  background: #EF4358;
+  padding: 15px 18px;
+  border-radius: 4px;
+}
+span .fa-play:hover{
+  color: white;
+ cursor: pointer;
+
+}
+.card-body img {
+  border-radius: 50%;
+  width: 40px;
+  margin-top: 19px;
+}
+#image____client img {
+  border-radius: 50%;
+  width: 40px;
+  margin-top: 19px;
 }
 /*================== end of media card section ==========================*/
 
