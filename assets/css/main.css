@@ -244,7 +244,7 @@ span .fa-play:hover{
 }
 .card-body img {
   border-radius: 50%;
-  width: 40px;
+  /* width: 40px; */
   margin-top: 19px;
 }
 #image____client img {
