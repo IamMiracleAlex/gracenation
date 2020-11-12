@@ -67,9 +67,7 @@ li {
   padding-top: 5.9rem;
   font-weight: 900;
 }
-.banner-text h1,p {
- /* line-height: 3rem; */
-}
+
 
 .btn-blue {
   background: #2f7ad2;
@@ -101,106 +99,7 @@ li {
 .tab-btn{
   color: black !important;
 }
-.card-image-one {
-  background-image: url("../images/image-one.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-two {
-  background-image: url("../images/image-two.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
 
-.card-image-three {
-  background-image: url("../images/image\ 3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-four {
-  background-image: url("../images/image-four.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-five {
-  background-image: url("../images/image-five.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-six {
-  background-image: url("../images/image-six.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-seven {
-  background-image: url("../images/image-seven.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-eight {
-  background-image: url("../images/image-eight.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
-.card-image-nine {
-  background-image: url("../images/image-nine.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 90%;
-  margin: 20px 0px;
-  color: white;
-  background-blend-mode: soft-light;
-  background-color: rgb(48, 47, 47);
-}
 .card-title {
   float: left;
   font-size: 16px;
